@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+img{
+    width: 24vw;
+    height: 30vh;
+}
+
+.estrogonofe{
+    /* margin-left: 150px; */
+    position: relative;
+    left: 19vw; 
+
+    /*
+        relative -> vai fazer com que o posicionamento da imagem seja relativo aos seus quatro cantos topo, esquerda, direita e embaixo.
+        
+        absolute -> vai fazer com que o posicionamento da imagem seja absoluto aos quatro canto da nossa tela topo, esquerda, direita e embaixo
+
+        fixed -> vai fazer com que a nossa imagem fique fixa na tela e seu posicionamento absoluto aos quatro cantos da nossa tela topo, esquerda, direita e embaixo
+
+        top -> vai posicionar os nossos elementos de cima para baixo
+        
+        right -> vai posicionar os nossos elementos da direita para a esquerda
+
+        left -> vai posicionar os nossos elementos da esquerda para a direita
+
+        botton -> vai posicionar os nossos elementos de baixo para cima
+
+    */
+}
+
+.lasanha{
+  position: absolute;  
+  bottom: 0vh;
+}
+
+/* .churrasco{
+    position: absolute;
+    bottom: 0vh;
+} */
